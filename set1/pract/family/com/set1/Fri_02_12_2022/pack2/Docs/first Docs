@@ -1,0 +1,13 @@
+/*
+What happens internally whenever we are compiling and running Java Program ?
+A ->
+    Whenever we are compiling through command Prompt (or) terminal (or) cli interface with writing
+    " javac filename.java" ,the java compiler check  whether the program has any error .
+    If no error is present inside the code , Compiler will generate .class file which consists of
+    "bytecodes" and this generated .class file is only understandable by JVM. So then we have to run
+    the Program with writing "java classfilename". If again no error is there , then the desired output
+    will be show on the server.
+
+* java is platform independent but JVM is platform dependent.
+
+ * JDK =
